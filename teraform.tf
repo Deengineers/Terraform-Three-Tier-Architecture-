@@ -1,9 +1,8 @@
 # Configure the AWS Provider
 provider "aws" {
   region  = "ap-southeast-2"
-  access_key = "AKIAWFFCSE7KXWV4A7DU"
-  secret_key = "T/gbi53wu5Y"
-}
+  access_key = "****"
+  secret_key = "*****"
 
 #create custom vpc
 resource "aws_vpc" "terraformVPC" {
